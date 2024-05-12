@@ -1,0 +1,61 @@
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.search-bar {
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.search-bar>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.links {
+    display: flex;
+}
+
+.links>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.links>div p, a, input, button {
+    margin: 0px;
+}
+
+.links>:nth-child(odd) {
+    width: 40%;
+}
+
+.links>:nth-child(even) {
+    width: 20%;
+}
+
+.links>:nth-child(1) {
+    background-color: aqua;
+}
+
+.links>:nth-child(2) {
+    background-color: rgb(0, 172, 172);
+}
+
+.links>:nth-child(3) {
+    background-color: rgb(0, 118, 118);
+}
+#search-bar {
+    width: 400px;
+}
+
+.footer {
+    text-align: center;
+}
